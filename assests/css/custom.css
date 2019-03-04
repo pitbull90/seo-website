@@ -1,6 +1,35 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*
+Theme Name: SEO Website
+Theme URI: http://underscores.me/
+Author: Henry
+Author URI: https://techsidesigns.com
+Description: Description
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# COLOUR REFERENCES
+# GENERAL
+# GLOBAL
+# LAYOUT
+# HOMPAGE
+	## SECTION ONE
+	## SECTION TWO
+	## SECTION THREE
+	## SECTION FOUR
+	## SECTION FIVE
+	## SECTION SIX
+	## SECTION SEVEN
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+
+
 /* COLOUR REFERENCES
 
 
@@ -437,10 +466,44 @@ div.heading-text {
 	text-align: center;
 }
 
+/* ==== SECTION SIX ==== */
+
+.sec-six {
+	background-color: #3cb878;
+	padding: 80px 0;
+}
+
+.counter-numbers {
+	display: block;
+	color: rgba(255,255,255,.2);
+	font-size: 100px;
+	font-weight: 400;
+	line-height: 100px;
+	margin-bottom: -50px;
+	text-size-adjust: 100%;
+
+}
+.units {
+	display: inline-block;
+}
+.counter-title {
+	color: #ffffff;
+	font-weight: 600;
+}
+
+
+/* ==== SECTION SEVEN ==== */
 
 
 
 
+
+/* ==== SECTION FOOTER ==== */
+
+#site-footer {
+	background-color: #151414;
+	background-image: none;
+}
 
 
 
