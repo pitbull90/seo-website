@@ -599,6 +599,13 @@ div.heading-text {
 	position: relative;
 }
 
+.pricing-tables-item:hover > .pricing-table-content .submit-wrap button.black-btn {
+	background-color: #4cc2c0;
+}
+
+.pricing-tables-item .pricing-table-content .submit-wrap button.black-btn:hover {
+	background-color: #4cc2c0 !important;
+}
 /* .pricing-tables-item .bg-layer {
 	background-color: #ffffff;
 	-webkit-box-shadow: 15px 0 80px rgba(0,0,0,.2);
@@ -685,6 +692,102 @@ div.heading-text {
 	font-size: 24px;
 	margin: 1.64em 0;
 }
+
+/* ==== SECTION NINE ==== */
+
+.recent-blogs .title-text-wrap {
+	text-align: left;
+}
+
+.read-more {
+	font-size: 18px;
+    color: #757575 !important;
+    padding: 0 0 0 30px;
+    border-left: 1px solid #f0f2f2;
+    margin: 0 0 0 30px;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 0;
+}
+
+.read-more i {
+	margin-left: 10px;
+	font-size: 12px
+}
+
+[class^="seoicon-"] {
+	font-family: 'seosight'!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.seoicon-right-arrow:before {
+	content: "\e936"
+}
+
+.recent-blogs-hr {
+	border-top: 3px solid #4cc2c0;
+    display: inline-block;
+    margin-top: 0px;
+	margin-bottom: 0px;
+	width: 15%;
+}
+
+.post .post-date {
+	background-color: #f7f9f9;
+	display: inline-block;
+	padding: 15px 25px;
+	border-radius: 50px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: #a7a7a7;
+}
+
+.post .post-content {
+	padding-bottom: 30px;
+    border-bottom: 1px solid #f7f9f9;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.post .post-content .post-title {
+	margin-bottom: 15px;
+	display: block;
+}
+
+.post .post__content .post__text {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.post .post-author {
+    display: table;
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.post .post-author .avatar {
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+.author .avatar {
+	border-radius: 100%;
+}
+
+.sldier-post {
+	text-align: left;
+}
+
 
 /* ==== SECTION FOOTER ==== */
 
@@ -1313,7 +1416,7 @@ footer li.signup-link a:hover {
 
 /* ==== BLOG ==== */
 
-.post, .widget, #comments {
+/*.post,*/ .widget, #comments {
 	position: relative;
 	border: solid 1px #ddd;
 	background: white;
