@@ -788,6 +788,40 @@ div.heading-text {
 	text-align: left;
 }
 
+/* ==== SECTION ELEVEN ==== */
+
+.client-sec {
+	background: #f7f9f9;
+	padding: 120px 0;
+}
+
+.client-item {
+	display: inline-block;
+	position: relative;
+	padding: 0 39px;
+	text-align: center;
+}
+
+.client-item .client-image {
+	position: relative;
+	-webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+}
+
+.client-item .client-image img {
+	position: relative;
+	-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.client-slider-padding {
+	padding-bottom: 120px;
+}
+
+
 
 /* ==== SECTION FOOTER ==== */
 
