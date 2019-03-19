@@ -821,6 +821,23 @@ div.heading-text {
 	padding-bottom: 120px;
 }
 
+.blog-swiper-container2 .swiper-button-next, .blog-swiper-container2 .swiper-button-prev {
+	top: 70%;
+	background-image: url('../img/left-arrow.png');
+	background-size: 70px 44px;
+	width: 80px;
+	overflow: visible;
+}
+.blog-swiper-container2 .swiper-button-prev {
+	background-image: url('../img/left-arrow.png');
+	left: 30%;
+}
+
+.blog-swiper-container2 .swiper-button-next {
+	background-image: url('../img/right-arrow.png');
+	right: 30%;
+}
+
 
 
 /* ==== SECTION FOOTER ==== */
