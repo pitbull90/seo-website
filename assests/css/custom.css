@@ -896,6 +896,10 @@ div.heading-text {
 	background-image: none;
 }
 
+.hc-heading {
+	margin-bottom: 25px;
+}
+
 .heading-title {
 	margin: 20px 0px;
 	font-size: 30px;
@@ -915,6 +919,27 @@ div.heading-text {
 	padding-bottom: 60px;
 	border-bottom: 2px solid rgba(255,255,255,.1);
 	overflow: hidden;
+}
+
+#menus-footer-menu-1, #menus-footer-menu-2 {
+	line-height: 1.2;
+	font-size: 14px;
+	list-style: none;
+	width: 50%;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+.footer a {
+	color: rgba(255,255,255,.35) !important;
+    -webkit-transition: all .3s ease !important;
+    transition: all .3s ease;
+}
+
+#hc-menu-2 i {
+	margin-right: 15px;
+	margin-top: 3px;
 }
 
 
