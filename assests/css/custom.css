@@ -1124,9 +1124,57 @@ div.heading-text {
   }
 
 
+  
+
+  /*************************************** SERVICE PAGE TEMPLATE **************************************/
 
 
+.service-sec {
+	background-color: #3e4d50;
+	background-image: url('../img/bg-1.png');
+	padding: 125px;
+	position: relative;
+	background-position: center center;
+}
 
+.service-heading-content {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	z-index: 15;
+	padding: 0 15px;
+}
+
+.service-sec .service-heading-title {
+	color: #fff;
+}
+
+.breadcrumbs {
+	margin-top: 40px;
+	padding: 0;
+	list-style: none;
+}
+
+.breadcrumbs-item {
+	display: inline-block;
+}
+
+.breadcrumbs-item a {
+	text-transform: uppercase;
+	color: #fff !important;
+	margin-right: 20px;
+}
+
+.breadcrumbs-item i {
+	margin-right: 20px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.seoicon-right-arrow:before {
+	content: "\e936";
+}
 
 
 
