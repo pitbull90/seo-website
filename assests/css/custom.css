@@ -1176,6 +1176,16 @@ div.heading-text {
 	content: "\e936";
 }
 
+.first-seo-sec {
+	margin-bottom: -200px;
+	padding-bottom: 0;
+}
+
+.second-seo-sec {
+	background: #f7f9f9;
+	padding-top: 220px;
+}  
+
 
 
 
